@@ -38,6 +38,10 @@
             android:name=".SelfieActivity"
             android:label="@string/title_activity_selfie" >
         </activity>
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/title_activity_main_screen" >
+        </activity>
     </application>
 
 </manifest>

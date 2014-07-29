@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+<LinearLayout 
+    	android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/FullView">
+<Button android:id="@+id/phoneButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="Phone"
+		    android:onClick="goToPhoneScreen"></Button>
+<Button android:id="@+id/confirmButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="Messages"
+		    android:onClick="goToMessagesScreen"></Button>
+</LinearLayout>
+</RelativeLayout>

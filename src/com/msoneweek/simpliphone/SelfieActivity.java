@@ -7,6 +7,7 @@ import android.hardware.Camera;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -41,6 +42,11 @@ public class SelfieActivity extends Activity {
 	    else 
 	    {
 	    }
+	}
+	public void goToMainScreen(View v)
+	{
+		Intent i = new Intent(this, MainScreenActivity.class);
+		startActivity(i);
 	}
 }
 	
