@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="#ffffff">
+
+		<TextView
+            android:id="@+id/messageTextEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Your Language"
+            android:textSize="40sp" 
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+		<LinearLayout 
+    	android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+    	<Button android:id="@+id/EnglishButton"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="English"/>
+    	<Button android:id="@+id/HindiButton"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:onClick="goToCongratsScreen"/>
+    	<Button android:id="@+id/TeluguButton"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="Telugu"/>
+	</LinearLayout>
+
+</RelativeLayout>

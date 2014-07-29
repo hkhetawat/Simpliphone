@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:onClick="goToNameScreen">
+    <LinearLayout 
+    	android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/FullView">
+
+        <ImageView
+            android:id="@+id/mascotImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/messageText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="40sp" />
+
+	</LinearLayout>
+    
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simpliphone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_language">LanguageActivity</string>
+    <string name="title_activity_congrats">CongratsActivity</string>
+    <string name="title_activity_name">NameActivity</string>
+    <string name="title_activity_selfie">SelfieActivity</string>
+
+</resources>
