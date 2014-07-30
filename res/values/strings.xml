@@ -8,5 +8,9 @@
     <string name="title_activity_name">NameActivity</string>
     <string name="title_activity_selfie">SelfieActivity</string>
     <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="title_activity_dialer">DialerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialer_message">अपने दोस्त को एक फोन करना</string>
+    <string name="title_activity_call">CallActivity</string>
 
 </resources>

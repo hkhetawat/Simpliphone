@@ -42,6 +42,14 @@
             android:name=".MainScreenActivity"
             android:label="@string/title_activity_main_screen" >
         </activity>
+        <activity
+            android:name=".DialerActivity"
+            android:label="@string/title_activity_dialer" >
+        </activity>
+        <activity
+            android:name=".CallActivity"
+            android:label="@string/title_activity_call" >
+        </activity>
     </application>
 
 </manifest>
